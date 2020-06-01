@@ -20,3 +20,5 @@ set nobackup
 set noswapfile
 set background=dark
 
+"nnoremap <Space> <Nop>
+"let mapleader="\<Space>"
