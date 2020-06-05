@@ -3,7 +3,7 @@ set t_Co=256
 colorscheme torte
 set nocursorline
 hi CursorLine cterm=none ctermbg=DarkMagenta ctermfg=White
-set number
+set relativenumber
 set hlsearch
 set incsearch
 set smartcase
@@ -20,8 +20,3 @@ set nobackup
 set noswapfile
 set background=dark
 
-"nnoremap <Space> <Nop>
-"let mapleader="\<Space>"
-"t
-"#from 107
-"from 107 2
