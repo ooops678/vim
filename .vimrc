@@ -1,22 +1,27 @@
-syntax enable
-set t_Co=256
-colorscheme torte
-set nocursorline
-hi CursorLine cterm=none ctermbg=DarkMagenta ctermfg=White
-set relativenumber
-set hlsearch
-set incsearch
-set smartcase
-set autoindent
-set ruler
-set showmode
-set wildmenu
-set autoindent
+syntax on
+
+set noerrorbells
+set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
-set softtabstop=4
-set scrolloff=5
-set nobackup
+set smartindent
+set number
+set nowrap
+set smartcase
 set noswapfile
-set background=dark
+set nobackup
+set incsearch
+
+set colorcolumn=80
+hi ColorColumn ctermbg=0 guibg=lightgrey 
+
+"nnoremap <Space> <Nop>
+"let mapleader="\<Space>"
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ` ``<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
 
